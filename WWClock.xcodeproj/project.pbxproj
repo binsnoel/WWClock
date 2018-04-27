@@ -12,6 +12,15 @@
 		A8C001442091A56500D46EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C001422091A56500D46EBB /* Main.storyboard */; };
 		A8C001462091A56500D46EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C001452091A56500D46EBB /* Assets.xcassets */; };
 		A8C001492091A56500D46EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C001472091A56500D46EBB /* LaunchScreen.storyboard */; };
+		A8C001512091A58200D46EBB /* WWClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C001502091A58100D46EBB /* WWClock.swift */; };
+		A8C001532091A58E00D46EBB /* WWClock.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C001522091A58E00D46EBB /* WWClock.xib */; };
+		A8C0015B2091A5BE00D46EBB /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C001552091A5BE00D46EBB /* NSDateComponents+Timepiece.swift */; };
+		A8C0015C2091A5BE00D46EBB /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C001562091A5BE00D46EBB /* NSCalendar+Timepiece.swift */; };
+		A8C0015D2091A5BE00D46EBB /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C001572091A5BE00D46EBB /* Int+Timepiece.swift */; };
+		A8C0015E2091A5BE00D46EBB /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C001582091A5BE00D46EBB /* NSDate+Timepiece.swift */; };
+		A8C0015F2091A5BE00D46EBB /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C001592091A5BE00D46EBB /* String+Timepiece.swift */; };
+		A8C001602091A5BE00D46EBB /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0015A2091A5BE00D46EBB /* Duration.swift */; };
+		A8C001622091C93700D46EBB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C001612091C93700D46EBB /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		A8C001452091A56500D46EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8C001482091A56500D46EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8C0014A2091A56500D46EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C001502091A58100D46EBB /* WWClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWClock.swift; sourceTree = "<group>"; };
+		A8C001522091A58E00D46EBB /* WWClock.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WWClock.xib; sourceTree = "<group>"; };
+		A8C001552091A5BE00D46EBB /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		A8C001562091A5BE00D46EBB /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		A8C001572091A5BE00D46EBB /* Int+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Timepiece.swift"; sourceTree = "<group>"; };
+		A8C001582091A5BE00D46EBB /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		A8C001592091A5BE00D46EBB /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
+		A8C0015A2091A5BE00D46EBB /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		A8C001612091C93700D46EBB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,31 @@
 		A8C0013D2091A56500D46EBB /* WWClock */ = {
 			isa = PBXGroup;
 			children = (
+				A8C001542091A5BE00D46EBB /* Sources */,
 				A8C0013E2091A56500D46EBB /* AppDelegate.swift */,
+				A8C001612091C93700D46EBB /* MainViewController.swift */,
 				A8C001402091A56500D46EBB /* ViewController.swift */,
+				A8C001502091A58100D46EBB /* WWClock.swift */,
+				A8C001522091A58E00D46EBB /* WWClock.xib */,
 				A8C001422091A56500D46EBB /* Main.storyboard */,
 				A8C001452091A56500D46EBB /* Assets.xcassets */,
 				A8C001472091A56500D46EBB /* LaunchScreen.storyboard */,
 				A8C0014A2091A56500D46EBB /* Info.plist */,
 			);
 			path = WWClock;
+			sourceTree = "<group>";
+		};
+		A8C001542091A5BE00D46EBB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A8C001552091A5BE00D46EBB /* NSDateComponents+Timepiece.swift */,
+				A8C001562091A5BE00D46EBB /* NSCalendar+Timepiece.swift */,
+				A8C001572091A5BE00D46EBB /* Int+Timepiece.swift */,
+				A8C001582091A5BE00D46EBB /* NSDate+Timepiece.swift */,
+				A8C001592091A5BE00D46EBB /* String+Timepiece.swift */,
+				A8C0015A2091A5BE00D46EBB /* Duration.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +160,7 @@
 			files = (
 				A8C001492091A56500D46EBB /* LaunchScreen.storyboard in Resources */,
 				A8C001462091A56500D46EBB /* Assets.xcassets in Resources */,
+				A8C001532091A58E00D46EBB /* WWClock.xib in Resources */,
 				A8C001442091A56500D46EBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C0015F2091A5BE00D46EBB /* String+Timepiece.swift in Sources */,
+				A8C0015B2091A5BE00D46EBB /* NSDateComponents+Timepiece.swift in Sources */,
 				A8C001412091A56500D46EBB /* ViewController.swift in Sources */,
+				A8C001512091A58200D46EBB /* WWClock.swift in Sources */,
 				A8C0013F2091A56500D46EBB /* AppDelegate.swift in Sources */,
+				A8C0015C2091A5BE00D46EBB /* NSCalendar+Timepiece.swift in Sources */,
+				A8C001602091A5BE00D46EBB /* Duration.swift in Sources */,
+				A8C0015E2091A5BE00D46EBB /* NSDate+Timepiece.swift in Sources */,
+				A8C0015D2091A5BE00D46EBB /* Int+Timepiece.swift in Sources */,
+				A8C001622091C93700D46EBB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +323,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bins.noel.WWClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -293,7 +337,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bins.noel.WWClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
